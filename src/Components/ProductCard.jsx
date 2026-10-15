@@ -5,7 +5,6 @@ export default function ProductCard({ name, price, description, image }) {
 		maximumFractionDigits: 0,
 	}).format(price);
 
-	// Jika gambar gagal dimuat, tampilkan placeholder
 	function handleImageError(e) {
 		e.target.onerror = null;
 		e.target.src = `https://placehold.co/400x300/dcfce7/166534?text=${encodeURIComponent(name)}`;

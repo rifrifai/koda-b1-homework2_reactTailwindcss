@@ -1,4 +1,3 @@
-// Reusable component: input pencarian (controlled component)
 export default function SearchBar({ value, onChange, placeholder = "Cari menu..." }) {
 	return (
 		<input

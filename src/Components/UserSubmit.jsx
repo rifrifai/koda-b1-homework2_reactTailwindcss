@@ -60,7 +60,7 @@ export default function UserSubmit() {
 			<form onSubmit={handleSubmit} className="flex flex-col gap-4">
 				<h2 className="text-2xl font-bold">Kirim Pesan</h2>
 
-				<label className="flex flex-col gap-1 font-semibold">
+				<label className="flex flex-col gap-2 font-semibold">
 					Nama
 					<input
 						type="text"

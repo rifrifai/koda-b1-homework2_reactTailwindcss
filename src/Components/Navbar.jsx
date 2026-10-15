@@ -20,7 +20,6 @@ export default function Navbar() {
 			<header className="sticky top-0 bg-white text-green-800 p-3 flex flex-wrap justify-between items-center z-9999 shadow-md border">
 				<h1 className="text-4xl font-extrabold p-4 m-2 text-center">Bangor Burger</h1>
 
-				{/* Tombol hamburger (hanya tampil di layar kecil) */}
 				<button
 					className="md:hidden border border-green-800 rounded px-3 py-1 mr-2 font-bold"
 					onClick={() => setOpen((prev) => !prev)}

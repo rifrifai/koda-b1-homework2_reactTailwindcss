@@ -13,13 +13,11 @@ Website restoran **Bangor Burger** yang dibuat dengan React JS, React Router, da
 ## Screenshot
 | Halaman | Screenshot |
 |---|---|
-| Home | ![Home](screenshots/home.png) |
-| Menu | ![Menu](screenshots/menu.png) |
-| Menu (hasil pencarian) | ![Search](screenshots/menu-search.png) |
-| About | ![About](screenshots/about.png) |
-| Contact | ![Contact](screenshots/contact.png) |
-
-> Simpan screenshot kamu di folder `screenshots/` dengan nama file di atas.
+| Home | ![Home](./public/screenshots/home.png) |
+| Menu | ![Menu](./public/screenshots/menu.png) |
+| Menu | ![Search](./public/screenshots/menu.png) |
+| About | ![About](./public/screenshots/about.png) |
+| Contact | ![Contact](./public/screenshots/contact.png) |
 
 ## Alur Penggunaan
 **Navigasi**
@@ -39,13 +37,19 @@ Website restoran **Bangor Burger** yang dibuat dengan React JS, React Router, da
 
 ## Cara Menjalankan Project
 ```bash
-# 1. Install dependency
+# 1. Clone repository
+git clone https://github.com/rifrifai/koda-b1-homework2_reactTailwindcss.git
+
+# 2. Change directory
+cd koda-b1-homework2_reactTailwindcss
+
+# 3. Install dependency
 npm install
 
-# 2. Jalankan development server
+# 4. Jalankan development server
 npm run dev
 
-# 3. Buka alamat yang muncul di terminal (biasanya http://localhost:5173)
+# 5. Buka alamat http://localhost:5173
 ```
 Dependency utama: `react`, `react-dom`, `react-router`, `tailwindcss`.
 
