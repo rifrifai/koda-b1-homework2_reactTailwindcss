@@ -1,5 +1,3 @@
-// Data menu diambil dari index.js (Burger Bangor System).
-// Taruh gambar di folder public/images/ dengan nama file seperti di bawah.
 export const products = [
 	{
 		id: 1,
