@@ -15,7 +15,6 @@ Website restoran **Bangor Burger** yang dibuat dengan React JS, React Router, da
 |---|---|
 | Home | ![Home](./public/screenshots/home.png) |
 | Menu | ![Menu](./public/screenshots/menu.png) |
-| Menu | ![Search](./public/screenshots/menu.png) |
 | About | ![About](./public/screenshots/about.png) |
 | Contact | ![Contact](./public/screenshots/contact.png) |
 
